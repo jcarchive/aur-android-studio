@@ -1,0 +1,17 @@
+[Desktop Entry]
+Type=Application
+Version=2020.3.1.26
+
+Name=Android Studio
+GenericName=Android IDE
+
+Icon=/usr/share/android-studio/bin/studio.png
+Comment=IDE for android development
+Keywords=development;android;ide
+Categories=Development;IDE
+
+Terminal=false
+StartupNotify=true
+StartupWMClass=android-studio
+X-MultipleArgs=false
+Exec=/usr/share/android-studio/bin/studio.sh
