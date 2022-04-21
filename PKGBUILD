@@ -1,7 +1,7 @@
 #Maintainer: Jose C.
 
 pkgname=android-studio
-pkgver='2020.3.1.26'
+pkgver='2021.1.1.23'
 pkgrel=1
 pkgdesc='Provides the fastest tools for building apps on every type of Android device'
 arch=('i686' 'x86_64')
@@ -17,8 +17,8 @@ _filextract='android-studio'
 source=("https://dl.google.com/dl/android/studio/ide-zips/$pkgver/android-studio-$pkgver-linux.tar.gz"
   "${pkgname}.desktop")
 
-sha256sums=('344d858235ed5d3095ac25916a4a8f8730069f76e5a5fd0eba02522af88f541b'
-  'ea739f5bfa52e89915965081233c600fe316fbf859b474784afa75a2dbb9948e')
+sha256sums=('b37506cd8ac7a80fe30cd1724e3be5c2d970a7aa6aa3fc9ca745afe3700aabcf'
+  '10ca7decc8fda704b2434639ea22ec93cf2baefa4dc7c24902f740fb795235c4')
 
 package() {
   #Create directorires with permission rwxr-xr-x
